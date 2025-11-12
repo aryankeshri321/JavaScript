@@ -68,13 +68,3 @@
 // circleArea(5);
 
 // fine si and ci with function and loop/
-function simpleInterest(p, r, t) {
-    let si = (p * r * t) / 100;
-    console.log("Simple Interest is: " + si);
-}
-function compoundInterest(p, r, t) {
-    let ci = p * (Math.pow(1 + r / 100, t)) - p;
-    console.log("Compound Interest is: " + ci);
-}
-simpleInterest(1000, 5, 2);
-compoundInterest(1000, 5, 2);
