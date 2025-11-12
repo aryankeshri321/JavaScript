@@ -67,4 +67,4 @@
 // squareArea(10);
 // circleArea(5);
 
-// fine si and ci with function and loop/
+// fine si and ci with function and loop
