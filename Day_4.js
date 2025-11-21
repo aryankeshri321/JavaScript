@@ -46,3 +46,63 @@
 
 // console.log(sum);
 
+// Print all the no. between 1 - 50 the are /3
+
+// for (let i = 1; i <= 50; i++) {
+//     if ((i % 3) === 0) {
+//         console.log(i);
+//     }
+// }
+
+// Print factorial of a number using for loop
+
+// let num = 5;
+// let factorial = 1;
+// for (let i = 1; i <= num; i++) {
+//     factorial = factorial * i;
+// }
+// console.log(`Factorial of ${num} is ${factorial}`);
+
+// Print whether the no. is even or odd from 1 to n
+
+// let value = prompt("Number da da Bhai");
+
+// for (let i = 1; i <= value; i++){
+//     if ((i % 2) === 0) {
+//         console.log(`${i} is an even number`);
+//     } else {
+//         console.log(`${i} is an odd number`);
+//     }
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//     if ((i % 3 === 0) && (i % 5 === 0)) {
+//         console.log(`${i} is divisible by both 3 and 5`);
+//     }
+// }
+
+
+// Print numbers from 1 to 100 except those which are divisible by 7
+
+// for (let i = 1; i <= 100; i++){
+//     if (i % 7 === 0) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+//
+// for (let i = 1; i <= 21; i++){
+//     if (i % 3 === 0) continue;
+//     console.log(i);
+// }
+
+
+// let count = 0;
+// for (let i = 1; i <= 100; i++){
+//     if (i % 2 === 1) {
+//         count++;
+//         console.log(i);
+//     }
+//     if (count === 5) break;
+// }
